@@ -1,0 +1,9 @@
+:root {
+  --page-content-max-width: 960px;
+  --page-spacing: 8px;
+  --bg-color: #003471;
+  --base-text-color: #ffffff;
+  --base-font-size: 15px;
+  --main-font-size: 42px;
+  --base-font-family: Roboto;
+}

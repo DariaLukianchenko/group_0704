@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: #74408c;
+}
+
+.sign-in {
+  width: 460px;
+  background: #ffffff;
+  border-radius: 9px;
+  margin: 0 auto;
+  border: none;
+  padding-top: 30px;
+}
+.form-header {
+  color: #74408c;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+.email-field {
+  width: 391px;
+  height: 55px;
+
+  background: #e5e9ed;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 36px;
+  margin-top: 55px;
+}
+
+.password-field {
+  width: 391px;
+  height: 55px;
+
+  background: #e5e9ed;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 36px;
+  margin-top: 14px;
+}
+
+div.button-wrapper {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 391px;
+  height: 55px;
+  color: #ffffff;
+  background: #74408c;
+  border: 1px solid #74408c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 36px;
+}
+
+a.link-password-text {
+  text-decoration: none;
+}
+div.link-password {
+  width: 287px;
+  margin-left: 88px;
+  font-size: 13px;
+  text-align: center;
+  padding: 30px;
+}

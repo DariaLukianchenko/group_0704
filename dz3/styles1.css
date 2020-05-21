@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #50e3c2;
+}
+body,
+button,
+div,
+h5,
+th,
+td,
+tr,
+table {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.page-div {
+  width: 343px;
+  height: 467px;
+  background: #ffffff;
+  border: 1px solid #dfe4ef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.name-header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #2c3135;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.prev {
+  float: left;
+  display: block;
+  padding: 0 14px;
+  font-size: 15px;
+  color: #bac2c7;
+}
+.next {
+  float: right;
+  color: #bac2c7;
+  padding: 0 14px;
+  font-size: 15px;
+}
+
+.days {
+  text-align: center;
+  color: #7f8fa4;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 10px;
+  width: 44px;
+}
+
+.rectungle-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: auto;
+}
+
+.bttn {
+  line-height: 44px;
+  width: 44px;
+  background: white;
+  border: 0px solid;
+
+  text-shadow: 0px;
+  border-collapse: collapse;
+}
+.active {
+  line-height: 44px;
+  width: 44px;
+  background: white;
+  border: 0px solid;
+
+  text-shadow: 0px;
+  border-collapse: collapse;
+}
+.off {
+  line-height: 44px;
+  width: 44px;
+  background: #edf2f5;
+  border: 0px solid;
+  text-shadow: 0px;
+  border-collapse: collapse;
+}
+.active:focus {
+  border: 0px;
+  text-align: center;
+  font-size: 12px;
+  width: 44px;
+  line-height: 44px;
+  background: #50e3c2;
+  color: #ffffff;
+  outline: none;
+}
+
+th {
+  padding: 13px 14px;
+}
+td {
+  padding: 7.5px 0;
+}
+
+.off:hover {
+  background: #edf2f5;
+}
+.cncl {
+  font-family: Monaco;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  border: 0px;
+  background: white;
+  margin-left: 48px;
+  margin-right: 200px;
+  margin-top: 32.6px;
+}
+
+.save {
+  font-family: Monaco;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  background: white;
+  margin-top: 32.6px;
+  margin-right: 24px;
+  border: 0px;
+}

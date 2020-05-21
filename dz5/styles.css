@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --base-text-color: #ffffff;
+  --header-bg-color: #33cccc;
+  --base-font-family: "Open Sans";
+}
+html {
+  font-size: 15px;
+  font-family: var(--base-font-family);
+  color: var(--base-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  background-color: var(--header-bg-color);
+  padding-bottom: 190px;
+}
+
+.page-section {
+  display: flex;
+  justify-content: center;
+}
+
+.page-content {
+  max-width: 960px;
+  width: 100%;
+}
+
+.page-header > .page-content {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 50px;
+  font-style: oblique;
+}
+
+.nav-item {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--base-text-color);
+  margin-top: 50px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+  background: white;
+  color: red;
+  padding: 8px 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.baner-section {
+  background-color: var(--header-bg-color);
+}
+
+.baner-section > .page-content {
+  display: flex;
+  align-items: center;
+}
+
+.baner-column {
+  position: relative;
+  width: 50%;
+  display: flex;
+}
+.baner-text {
+  width: 577px;
+  align-items: center;
+}
+.baner-image {
+  width: 561px;
+  height: 485px;
+}
+.name-header {
+  font-size: 36px;
+}
+.p-content {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.number-field {
+  width: 286px;
+  height: 50px;
+  margin: 10px 0;
+}
+.btn {
+  color: var(--base-text-color);
+  width: 286px;
+  height: 50px;
+  background: #4a4a4a;
+  border-radius: 2px;
+}
+.button-wrapper {
+  outline: none;
+}
+.page-footer {
+  background-color: var(--header-bg-color);
+}
+
+.twitter {
+  margin-left: 250px;
+  margin-right: 50px;
+}
+.text-footer {
+  background-color: var(--header-bg-color);
+  padding: 20px 200px 60px;
+}

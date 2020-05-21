@@ -1,0 +1,85 @@
+:root {
+  --header-height: 60px;
+  --header-bg-color: #070707;
+  --base-text-color: #ffffff;
+  --page-content-max-width: 1200px;
+  --base-font-family: Roboto;
+}
+
+.page-header {
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--header-bg-color);
+}
+.page-main {
+  font-family: var(--base-font-family);
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  max-width: var(--page-content-max-width);
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 30px;
+  display: flex;
+  color: var(--base-text-color);
+  margin-top: 20px;
+}
+.img-pic {
+  width: 115%;
+}
+.form-booking {
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-family: var(--base-font-family);
+  padding: 10px 15px;
+}
+.form-header {
+  margin-bottom: 12px;
+}
+.email-field {
+  margin: 10px 0;
+  width: 250px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ebebeb;
+  outline: none;
+}
+.email-arrive {
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ebebeb;
+  outline: none;
+  width: 125px;
+  height: 30px;
+}
+.text-arrive {
+  box-sizing: border-box;
+  border: 0px solid #ebebeb;
+  outline: none;
+  width: 125px;
+}
+
+.btn {
+  background: #ff5a5f;
+  border-radius: 4px;
+  color: var(--base-text-color);
+  width: 100px;
+  height: 35px;
+  font-size: 10px;
+  outline: none;
+}
+.thumbnail-btn:active {
+  color: #888888;
+}
+.button-wrapper {
+  text-align: right;
+}
